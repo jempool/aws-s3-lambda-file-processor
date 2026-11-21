@@ -1,0 +1,8 @@
+{
+  "status": "PROCESSED",
+  "total_transactions": 3,
+  "total_amount": 500,
+  "average_amount": 166.67,
+  "source_file": "s3://ccog-file-processor-<ACCOUNT_ID>/input/transactions.json",
+  "processed_at": "2026-11-21T20:33:55+00:00"
+}
