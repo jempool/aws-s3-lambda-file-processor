@@ -1,0 +1,12 @@
+test_empty_list (test_processor.InvalidFileTests.test_empty_list) ... ok
+test_every_problem_is_reported (test_processor.InvalidFileTests.test_every_problem_is_reported) ... ok
+test_malformed_json (test_processor.InvalidFileTests.test_malformed_json) ... ok
+test_non_utf8_content (test_processor.InvalidFileTests.test_non_utf8_content) ... ok
+test_top_level_must_be_a_list (test_processor.InvalidFileTests.test_top_level_must_be_a_list) ... ok
+test_decimal_amounts_are_rounded_to_cents (test_processor.ValidFileTests.test_decimal_amounts_are_rounded_to_cents) ... ok
+test_sample_file_is_summarized (test_processor.ValidFileTests.test_sample_file_is_summarized) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.001s
+
+OK

@@ -1,0 +1,8 @@
+{
+  "status": "FAILED",
+  "errors": [
+    "File is not valid JSON"
+  ],
+  "source_file": "s3://ccog-file-processor-<ACCOUNT_ID>/input/invalid-json.json",
+  "processed_at": "2026-11-21T20:33:34+00:00"
+}

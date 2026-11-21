@@ -1,0 +1,9 @@
+{
+  "status": "FAILED",
+  "errors": [
+    "Transaction 2: missing field 'customer'",
+    "Transaction 3: 'amount' must be a number"
+  ],
+  "source_file": "s3://ccog-file-processor-<ACCOUNT_ID>/input/missing-fields.json",
+  "processed_at": "2026-11-21T20:33:45+00:00"
+}
