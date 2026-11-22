@@ -150,15 +150,15 @@ Captured from a real run in AWS on 2026-11-21 (account ID redacted as `<ACCOUNT_
 | [evidence/output/invalid-json.summary.json](evidence/output/invalid-json.summary.json) | Malformed JSON rejected |
 | [evidence/output/missing-fields.summary.json](evidence/output/missing-fields.summary.json) | Missing `customer` and non-numeric `amount` both reported |
 | [evidence/cloudwatch-logs.json](evidence/cloudwatch-logs.json) | CloudWatch logs: exactly one invocation per upload, INFO/ERROR levels, cold start ~490 ms, warm runs ~260 ms, ~93 MB memory |
-| `evidence/screenshots/` | AWS console screenshots (see list below) |
+| [evidence/screenshots/](evidence/screenshots/) | AWS console screenshots (see list below) |
 
-Console screenshots to add to `evidence/screenshots/`:
+Console screenshots `evidence/screenshots/`:
 
-1. `s3-bucket.png`: the bucket showing the `input/` and `output/` folders.
-2. `lambda-trigger.png`: the Lambda function overview with the S3 trigger attached.
-3. `lambda-monitor.png`: the Lambda *Monitor* tab showing the invocations.
-4. `cloudwatch-logs.png`: a log stream with the `File PROCESSED` and `File FAILED` entries.
-5. `iam-role.png`: the role's inline policy scoped to `input/*` and `output/*`.
+1. [s3-bucket.png](evidence/screenshots/1.%20s3-bucket.png): the bucket showing the `input/` and `output/` folders.
+2. [lambda-trigger.png](evidence/screenshots/2.%20lambda-trigger.png): the Lambda function overview with the S3 trigger attached.
+3. [lambda-monitor.png](evidence/screenshots/3.%20lambda-monitor.png): the Lambda *Monitor* tab showing the invocations.
+4. [cloudwatch-logs.png](evidence/screenshots/4.%20cloudwatch-logs.png): a log stream with the `File PROCESSED` and `File FAILED` entries.
+5. [iam-role.png](evidence/screenshots/5.%20iam-role.png): the role's inline policy scoped to `input/*` and `output/*`.
 
 ## Design decisions
 
